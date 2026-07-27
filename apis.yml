@@ -1,8 +1,26 @@
 aid: flexus-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/flexus-biosciences.png
 name: Flexus Biosciences
-description: 'Flexus Biosciences is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Flexus Biosciences was a South San Francisco / San Carlos, California
+  biotechnology company founded in 2013 to develop small-molecule cancer immunotherapies,
+  most notably inhibitors of the IDO/TDO immunosuppressive pathway (lead IDO1 program
+  F001287). Backed by Kleiner Perkins and The Column Group, it was acquired by Bristol-Myers
+  Squibb in February 2015 for up to roughly $1.25 billion (about $800M upfront) to
+  expand BMS''s immuno-oncology pipeline. The company no longer operates independently;
+  its domain redirects to the Bristol-Myers Squibb acquisition announcement. It publishes
+  no public developer portal, documentation, or API, so this profile carries company
+  identity only and no technical API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/flexus-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +28,31 @@ x-backed-by:
 - kleiner-perkins
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: bristol-myers-squibb
+x-acquired-date: '2015-02'
+x-acquisition-announcement: https://news.bms.com/press-release/rd-news/bristol-myers-squibb-expand-its-immuno-oncology-pipeline-agreement-acquire-fle/
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Pharmaceuticals
+- Immuno-Oncology
+- Cancer
+- Drug Discovery
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
