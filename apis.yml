@@ -33,7 +33,7 @@ x-acquired-by: bristol-myers-squibb
 x-acquired-date: '2015-02'
 x-acquisition-announcement: https://news.bms.com/press-release/rd-news/bristol-myers-squibb-expand-its-immuno-oncology-pipeline-agreement-acquire-fle/
 x-no-api-surface: true
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
